@@ -10,6 +10,7 @@ interface IGuarantee {
 }
 
 export interface IProduct {
+  id?: number;
   orderId: number;
   serialNumber: number;
   isNew: number;
