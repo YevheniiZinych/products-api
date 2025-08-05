@@ -6,6 +6,11 @@ This is a simple backend API built with NestJS and sequelize-typescript for mana
 
 - base URL - [text](https://products-api-1kn6.onrender.com)
 
+## Database Schema
+
+The file [`orders_products_db.mwb`](./orders_products_db.mwb) contains the MySQL Workbench schema for this project.  
+You can open it in [MySQL Workbench](https://www.mysql.com/products/workbench/) to see the tables and their relationships visually.
+
 ## Features
 
 - Create new orders with multiple products in one request
