@@ -2,6 +2,10 @@
 
 This is a simple backend API built with NestJS and sequelize-typescript for managing Orders and Products.
 
+## API host url
+
+- base URL - [text](https://products-api-1kn6.onrender.com)
+
 ## Features
 
 - Create new orders with multiple products in one request
