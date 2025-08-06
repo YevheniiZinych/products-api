@@ -6,6 +6,7 @@ import { OrdersModule } from './orders/orders.module';
 import { ProductsModule } from './products/products.module';
 import { Order } from './orders/order.model';
 import { Product } from './products/product.model';
+import { SessionsGateway } from './sessions/sessions.gateway';
 
 @Module({
   imports: [
@@ -28,6 +29,6 @@ import { Product } from './products/product.model';
     ProductsModule,
   ],
   controllers: [],
-  providers: [],
+  providers: [SessionsGateway],
 })
 export class AppModule {}
