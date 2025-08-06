@@ -9,12 +9,12 @@ export class OrdersController {
 
   @Post()
   async createOrder(@Body() data: IOrder): Promise<Order> {
-    return this.orderService.createOrder(data);
+    return await this.orderService.createOrder(data);
   }
 
   @Get()
   async getAllOrders(): Promise<Order[]> {
-    return this.orderService.findAll();
+    return await this.orderService.findAll();
   }
 
   @Delete(':id')
