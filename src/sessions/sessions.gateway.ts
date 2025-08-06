@@ -6,7 +6,7 @@ import {
 } from '@nestjs/websockets';
 import { Server } from 'socket.io';
 
-@WebSocketGateway({ cors: { origin: '*' } }) // CORS на localhost разрешен
+@WebSocketGateway({ cors: { origin: '*' } })
 export class SessionsGateway
   implements OnGatewayConnection, OnGatewayDisconnect
 {
