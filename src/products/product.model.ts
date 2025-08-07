@@ -27,13 +27,13 @@ export class Product extends Model<IProduct> {
   @Column
   photo: string;
 
-  @Column
+  @Column({ type: DataType.TEXT })
   title: string;
 
-  @Column
+  @Column({ type: DataType.TEXT })
   type: string;
 
-  @Column
+  @Column({ type: DataType.TEXT })
   specification: string;
 
   @Column({ type: DataType.JSONB })
