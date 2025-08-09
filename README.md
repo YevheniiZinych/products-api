@@ -4,7 +4,7 @@ This is a simple backend API built with NestJS and sequelize-typescript for mana
 
 ## API host url
 
-- base URL - [text](https://products-api-1kn6.onrender.com)
+- base URL - [https://products-api-1kn6.onrender.com]
 
 ## Database Schema
 
